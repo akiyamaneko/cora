@@ -35,6 +35,5 @@ cora is a concise, convenient and open source tool for sending emails using stre
                        .withCopyReceiver("xxxxx@qq.com", "xxxx@163.com")
                        .asyncSend();
 ```
-更多API的用法还有扩展欢迎探索
-# 后续计划
-+ 支持自定义模板
+
+More API usage and extensions are welcome to explore
