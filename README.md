@@ -1,15 +1,15 @@
-# 概述
+# Introduce
 [中文文档](README_zh.md)  
 
 cora is a concise, convenient and open source tool for sending emails using streaming API.
-# 特性
+# Features
 + Concise API
 + Support attachment, cc, subject...
 + Support synchronous and asynchronous sending of emails
 + Support extension, currently implements `DefaultEmailServiceProvider` which can meet the sending function of most requirements.
  If `IEmailServiceProvider` is not satisfied, you can implement `IEmailServiceProvider` to develop your own service.
 
-# example
+# Example
 
 ```java
                 // set the connection timeout time to 60s, the timeout time to 50s, and specified the recipient and the CC.
